@@ -65,10 +65,10 @@ public class Main {
     }
     // 7. roundPositiveValueToNearestInteger
     public static int roundPositiveValueToNearestInteger(double input) { // I would not give a method this long a name
-        return (int) Math.round(input);
+        return (int) (input + 0.5);
     }
     // 8. roundNegativeValueToNearestInteger
     public static int roundNegativeValueToNearestInteger(double input) {
-        return (int) Math.round(input);
+        return (int) (input - 0.5);
     }
 }
